@@ -4,10 +4,10 @@ import GpsScreen from "../component/GpsComponent";
 
 export default function Gps() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <GpsScreen />
       <StatusBar style="auto" />
-    </View>
+    </SafeAreaView>
   );
 }
 
